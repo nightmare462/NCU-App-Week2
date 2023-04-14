@@ -3,7 +3,7 @@ import {Text, View, Button, Image} from 'react-native';
 
 function Page3({ navigation }) {
   return (
-    //顯示在螢幕畫面上的都要放在這
+    
     <View style={{alignSelf:'center',alignItems:'center'}}>
       <View style={{width:300,height:300,marginTop:120}}>
         <Image

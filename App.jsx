@@ -6,7 +6,7 @@ import Page2 from './page/page2';
 import Page3 from './page/page3';
 
 const Stack = createStackNavigator();
-
+// 
 function App() {
   return (
     <NavigationContainer initialRouteName="Home">

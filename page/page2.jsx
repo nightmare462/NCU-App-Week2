@@ -3,7 +3,7 @@ import {Text, View, Button, Image} from 'react-native';
 
 function Page2({ navigation }) {
   return (
-    //顯示在螢幕畫面上的都要放在這
+    
     <View style={{alignSelf:'center',alignItems:'center'}}>
       <View style={{width: 300, backgroundColor:'#91B493', marginTop: 420}} >
         <Text style = {{fontSize: 20, color:'white', marginLeft:5}}> 經過</Text>

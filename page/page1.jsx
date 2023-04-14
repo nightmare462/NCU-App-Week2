@@ -3,7 +3,7 @@ import {Text, View, Button, Image} from 'react-native';
 
 function Page1({ navigation }) {
   return (
-    //顯示在螢幕畫面上的都要放在這
+    
     <View style={{flex:1, alignSelf:'center',alignItems:'center', justifyContent:'center'}}>
       {/* 圖片 */}
       <View style={{width:240,height:200, marginTop:200}}>
@@ -15,7 +15,6 @@ function Page1({ navigation }) {
         />
       </View>
 
-      {/* 對話框 */}
       <View style={{width: 300, backgroundColor:'#91B493', marginTop: 20}} >
         <Text style = {{fontSize: 20, color:'white', marginLeft:5}}> 石頭</Text>
       </View>
@@ -24,7 +23,6 @@ function Page1({ navigation }) {
         只是一顆石頭</Text>
       </View>
 
-      {/* 按鈕 */}
       <View style={{ flex: 1, flexDirection: 'row',marginTop:20 }}>
         <View style={{ height:40, backgroundColor: '#91B493' }}>
           <Button

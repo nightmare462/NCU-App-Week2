@@ -14,10 +14,16 @@ function Page1({ navigation }) {
         />
       </View>
       <View style = {{width:300,height:10}}></View>
-      <Button
-          title="舉起"
-          onPress={() => navigation.navigate('Next')}
+      <View style={styles.fixToText}>
+        <Button
+          title="手持"
+          onPress={() => navigation.navigate('P1')}
         />  
+        <Button
+          title="經過"
+          onPress={() => navigation.navigate('P2')}
+        />
+      </View>
     </View>
   );
 }

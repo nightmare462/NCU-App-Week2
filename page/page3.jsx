@@ -5,7 +5,7 @@ function Page3({ navigation }) {
   return (
     //顯示在螢幕畫面上的都要放在這
     <View style={{alignSelf:'center',alignItems:'center'}}>
-      <View style={{width:300,height:300,marginTop:100}}>
+      <View style={{width:300,height:300,marginTop:120}}>
         <Image
           style={{width: '100%',height: '100%'}}
           source={{
@@ -14,11 +14,10 @@ function Page3({ navigation }) {
         />
       </View>
       <View style={{width: 300, backgroundColor:'#91B493'}} >
-        <Text style = {{textAlign: "left", fontSize: 20}}> 克洛格</Text>
+        <Text style = {{fontSize: 20, color:'white', marginLeft:5}}> 克洛格</Text>
       </View>
-      {/* <View style={{height:20}}></View> */}
       <View style={{backgroundColor:'white'}} >
-        <Text style = {{textAlign: 'center', width: 300, height: 100, fontSize: 20}}>
+        <Text style = {{textAlign: 'center', width: 300, height: 50, fontSize: 20, marginTop:20}}>
           呀哈哈！</Text>
       </View>
     </View>

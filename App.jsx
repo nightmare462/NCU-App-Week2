@@ -15,10 +15,22 @@ function App() {
           component={Page1} 
           options={{
             headerTintColor: 'white',
-            headerStyle: { backgroundColor: 'ForestGreen' },
+            headerStyle: { backgroundColor: '#228B22' },
           }}/>
-        <Stack.Screen name="Ignore" component={Page2} />
-        <Stack.Screen name="PickUp" component={Page3} />
+        <Stack.Screen name="Ignore" 
+          component={Page2} 
+          options={{
+            headerTintColor: 'white',
+            headerStyle: { backgroundColor: '#228B22' },
+          }}
+        />
+        <Stack.Screen name="PickUp" 
+          component={Page3} 
+          options={{
+            headerTintColor: 'white',
+            headerStyle: { backgroundColor: '#228B22' },
+          }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
